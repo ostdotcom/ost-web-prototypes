@@ -33,7 +33,12 @@
 		src: local('Open Sans Bold'), local('OpenSans-Bold'), url(assets/fonts/open_sans/OpenSans-bold.woff) format('woff');
 	}
 	</style>
-	<script type="text/javascript" src="../../js/index.js" ></script>
+
+	<script type="text/javascript">
+      var prototypeVersion = parseInt(new URL(document.location).searchParams.get('v') || 1);
+      document.write('<sc'+'ript type="text/javascript" src="../js/index.js?v=' + prototypeVersion + '"></sc'+'ript>');
+	</script>
+
 	<!-- Interface styles -->
 	<link type="text/css" rel="stylesheet" href="assets/jquery-ui-1.9.2.custom/css/no-theme/jquery-ui-1.9.2.custom.min.css">
 	<link type="text/css" rel="stylesheet" href="assets/apps/share/css-static/uniform.default.css">
