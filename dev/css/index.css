@@ -14,3 +14,9 @@
   .loading-backdrop{
     background-color: #ffffff !important;
   }
+  .iphoneX-portrait.black > #viewport{
+    border-top-left-radius: 39px!important;
+    border-top-right-radius: 40px!important;
+    border-bottom-left-radius: 40px!important;
+    border-bottom-right-radius: 40px!important;
+  }
