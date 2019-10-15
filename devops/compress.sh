@@ -77,7 +77,7 @@ function compress(){
 
 # Create workspace dir
 APP_DIR="${APP_ROOT}/dev"
-WORKSPACE_DIR="${APP_ROOT}/workspace"
+WORKSPACE_DIR="${APP_ROOT}/build"
 rm -rf ${WORKSPACE_DIR}
 mkdir ${WORKSPACE_DIR}
 
