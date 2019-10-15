@@ -82,7 +82,7 @@ rm -rf ${WORKSPACE_DIR}
 mkdir ${WORKSPACE_DIR}
 
 # Copy project files to workspace
-cp -r ${APP_DIR}/ ${WORKSPACE_DIR}/
+cp -R ${APP_DIR}/* ${WORKSPACE_DIR}/
 
 # Minify and Compress js files
 if [[ ${MINIFY} == true ]]; then
